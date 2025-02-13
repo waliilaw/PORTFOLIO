@@ -14,6 +14,35 @@ const Projects = () => {
 
       </motion.h2>
 
+      {/* Project 2 */}
+      <div className='mb-8 flex flex-wrap lg:justify-center'>
+        <motion.div 
+      
+          className='w-full lg:w-1/4'>
+            <a href='https://Valentino.waliilaw.me'>
+            <img src='/valentino.jpg' width={500} height={500} alt="LiveDox" className='mb-6 lg:mx-[-100px] rounded-xl'/>
+            </a>
+         
+        </motion.div>
+        <motion.div
+          className='w-full max-w-xl lg:w-3/4'>
+          <a href='https://Valentino.waliilaw.me'>
+          <h3 className='mb-2 font-semibold text-2xl'>Valentino</h3>
+          </a>
+          <p className='mb-4 text-stone-400'>
+You enter your username and the Twitter API fetch your profile and pass it on to Gemini API which has prompt to comment on the user's Posts , PFP , username  
+          </p>
+          <a className='text-2xl  '  href='https://github.com/waliilaw/Valentino' target='_blank'>
+            <FaGithub />
+          </a>
+          <div className='mt-4 flex flex-wrap'>
+          <span className='mr-3 rounded bg-pink-700 p-2 text-sm font-medium text-stone-300'>React</span>
+          <span className='mr-3 rounded bg-pink-700 p-2 text-sm font-medium text-stone-300'>Tailwind</span>
+          <span className='mr-3 rounded bg-pink-700 p-2 text-sm font-medium text-stone-300'>TypeScript</span>
+          <span className='mr-3 rounded bg-pink-700 p-2 text-sm font-medium text-stone-300'>Twitter API</span>
+          </div>
+        </motion.div>
+      </div>
       <div className='mb-8 flex flex-wrap lg:justify-center'>
         <motion.div 
           className='w-full lg:w-1/4'>
@@ -34,9 +63,9 @@ const Projects = () => {
             <FaGithub />
           </a>
           <div className='mt-4 flex flex-wrap'>
-          <span className='mr-3 rounded bg-orange-900 p-2 text-sm font-medium text-stone-300'>React</span>          
-          <span className='mr-3 rounded bg-orange-900 p-2 text-sm font-medium text-stone-300'>Socket.io</span>
-          <span className='mr-3 rounded bg-orange-900 p-2 text-sm font-medium text-stone-300'>Typescript</span>
+          <span className='mr-3 rounded bg-orange-700 p-2 text-sm font-medium text-stone-300'>React</span>          
+          <span className='mr-3 rounded bg-orange-700 p-2 text-sm font-medium text-stone-300'>Socket.io</span>
+          <span className='mr-3 rounded bg-orange-700 p-2 text-sm font-medium text-stone-300'>Typescript</span>
 
           </div>
         </motion.div>
@@ -64,44 +93,14 @@ const Projects = () => {
           </a>
 
           <div className='mt-4 flex flex-wrap'>
-          <span className='mr-3 rounded bg-red-900 p-2 text-sm font-medium text-stone-300'>React</span>
-          <span className='mr-3 rounded bg-red-900 p-2 text-sm font-medium text-stone-300'>Kinde</span>
-          <span className='mr-3 rounded bg-red-900 p-2 text-sm font-medium text-stone-300'>TypeScript</span>
-          <span className='mr-3 rounded bg-red-900 p-2 text-sm font-medium text-stone-300'>ShadCN</span>
+          <span className='mr-3 rounded bg-red-700 p-2 text-sm font-medium text-stone-300'>React</span>
+          <span className='mr-3 rounded bg-red-700 p-2 text-sm font-medium text-stone-300'>Kinde</span>
+          <span className='mr-3 rounded bg-red-700 p-2 text-sm font-medium text-stone-300'>TypeScript</span>
+          <span className='mr-3 rounded bg-red-700 p-2 text-sm font-medium text-stone-300'>ShadCN</span>
           </div>
         </motion.div>
       </div>
 
-      {/* Project 2 */}
-      <div className='mb-8 flex flex-wrap lg:justify-center'>
-        <motion.div 
-      
-          className='w-full lg:w-1/4'>
-            <a href='https://github.com/waliilaw/Shrine'>
-            <img src='/shrine.jpeg' width={500} height={500} alt="LiveDox" className='mb-6 lg:mx-[-100px] rounded-xl'/>
-            </a>
-         
-        </motion.div>
-        <motion.div
-        
-          className='w-full max-w-xl lg:w-3/4'>
-          <a href='https://github.com/waliilaw/Shrine'>
-          <h3 className='mb-2 font-semibold text-2xl'>Shrine</h3>
-          </a>
-          <p className='mb-4 text-stone-400'>
-            A personalised Music with all features provided by the Spotify API and more features to be added soon (Project is still in development) , Voting will be added to it
-          </p>
-          <a className='text-2xl  '  href='https://github.com/waliilaw/Shrine' target='_blank'>
-            <FaGithub />
-          </a>
-          <div className='mt-4 flex flex-wrap'>
-          <span className='mr-3 rounded bg-blue-900 p-2 text-sm font-medium text-stone-300'>React</span>
-          <span className='mr-3 rounded bg-blue-900 p-2 text-sm font-medium text-stone-300'>Tailwind</span>
-          <span className='mr-3 rounded bg-blue-900 p-2 text-sm font-medium text-stone-300'>TypeScript</span>
-          <span className='mr-3 rounded bg-blue-900 p-2 text-sm font-medium text-stone-300'>API</span>
-          </div>
-        </motion.div>
-      </div>
 
       {/* project 3 */}
       
